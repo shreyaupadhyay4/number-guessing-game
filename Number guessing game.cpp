@@ -6,7 +6,7 @@ int main(){
   int secret=rand()%100 +1;
   int guess,attempt=0;
   cout<<"Welcome to the Number Guessing Game!"<<endl;
-  cout<<"I have selected a number between 1 and 1000."<<endl;
+  cout<<"I have selected a number between 1 and 100."<<endl;
   cout<<"Can you guess what the number is?"<<endl;
   do{
     cout<<"Enter your guess:";
